@@ -1,0 +1,31 @@
+import { Component, OnInit } from '@angular/core'
+
+@Component({
+  selector: 'app-header',
+  template:`
+  <div class="navbar is-aqua" >
+   <div class="navbar-brand">
+    <a class="navbar-item">
+    
+    </a>
+   </div>
+   <div class="navbar-menu">
+   <div class="navbar-end">
+<a class="navbar-item" routerLink="/">home</a>
+
+<a class="navbar-item" routerLink="/contact">contact</a>
+<a class="navbar-item" routerLink="/users">users</a>
+
+   </div>
+  </div>
+  </div> 
+
+
+  `,
+  styles:[]
+})
+export class HeaderComponent implements OnInit {
+  constructor(){}
+  ngOnInit() {}
+    
+  }

@@ -1,0 +1,36 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-home',
+  template:`
+  <section class="hero is-primary is-bold ">
+
+  <div class="hero-body">
+  <div class="container has-text-centered">
+    <h1 class="title">
+    
+
+</h1>
+  </div>  
+  </div>
+</section>
+  
+ `
+  ,
+  styles:[`
+  .hero{
+    background-image:url('/assets/green.jpeg') !important;
+    background-size:100% 100%;
+    background-position:center center ;
+    height:650px;
+    width:100%;
+    margin-top:-20px;
+  }
+
+  `]
+})
+export class HomeComponent implements OnInit {
+  constructor(){}
+  ngOnInit() {}
+
+}
